@@ -17,7 +17,8 @@ class Cyborg:
                 run_ldap_checks=False,
                 run_file_checks=False,
                 run_google_group_checks=False,
-                org_git_url_or_path="git@gitlab.cee.redhat.com:hybrid-platforms/org.git"
+                gc_auth_file=None,
+                org_git_url_or_path="git@gitlab.cee.redhat.com:hybrid-platforms/org.git",
             )
         )
         container.gc_manager.override(None)
